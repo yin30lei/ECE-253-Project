@@ -30,12 +30,12 @@ The dataset used can also be found at the following Huggingface repos:
 > Glow-ViT-dark
 
 ```
-***** glow-vit-dark | testing on yin30lei/wildlife_very_dark metrics *****
-  eval_loss                   =     0.5614
-  eval_model_preparation_time =      0.002
-  eval_runtime                = 0:00:09.52
-  eval_samples_per_second     =     73.675
-  eval_steps_per_second       =      4.618
+***** glow-vit-dark | testing on yin30lei/wildlife_very_dark  metrics *****
+  eval_loss                   =     0.5554
+  eval_model_preparation_time =     0.0022
+  eval_runtime                = 0:00:36.61
+  eval_samples_per_second     =     19.172
+  eval_steps_per_second       =      1.202
 ```
 
 > Glow-ViT-illuminate
@@ -95,29 +95,29 @@ The dataset used can also be found at the following Huggingface repos:
 
 ```
 ***** glow-vit-dark | testing on yin30lei/wildlife_very_dark_test  metrics *****
-  eval_loss                   =      0.561
+  eval_loss                   =     0.4528
   eval_model_preparation_time =     0.0022
-  eval_runtime                = 0:01:06.04
-  eval_samples_per_second     =     19.956
-  eval_steps_per_second       =      1.257
+  eval_runtime                = 0:01:09.23
+  eval_samples_per_second     =     19.035
+  eval_steps_per_second       =      1.199
 ***** glow-vit-dark | testing on yin30lei/wildlife_grayscale  metrics *****
-  eval_loss                   =     0.8321
+  eval_loss                   =     0.2992
   eval_model_preparation_time =     0.0022
-  eval_runtime                = 0:02:23.75
-  eval_samples_per_second     =     12.695
-  eval_steps_per_second       =        0.8
+  eval_runtime                = 0:02:20.41
+  eval_samples_per_second     =     12.997
+  eval_steps_per_second       =      0.819
 ***** glow-vit-dark | testing on yin30lei/wildlife_less_saturated  metrics *****
-  eval_loss                   =     1.0754
+  eval_loss                   =     0.3231
   eval_model_preparation_time =     0.0022
-  eval_runtime                = 0:00:56.26
-  eval_samples_per_second     =     20.207
-  eval_steps_per_second       =       1.28
+  eval_runtime                = 0:00:53.08
+  eval_samples_per_second     =     21.418
+  eval_steps_per_second       =      1.356
 ***** glow-vit-dark | testing on yin30lei/wildlife_underexposed  metrics *****
-  eval_loss                   =     0.9486
+  eval_loss                   =     0.2702
   eval_model_preparation_time =     0.0022
-  eval_runtime                = 0:00:54.61
-  eval_samples_per_second     =     20.819
-  eval_steps_per_second       =      1.318
+  eval_runtime                = 0:00:52.00
+  eval_samples_per_second     =     21.862
+  eval_steps_per_second       =      1.384
 ```
 
 > Glow-ViT_illuminate
