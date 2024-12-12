@@ -21,43 +21,115 @@ The dataset used can also be found at the following Huggingface repos:
 ```
 ***** glow-vit | testing on SeaSponge/wildme10_classify  metrics *****
   eval_loss                   =     0.1246
-  eval_model_preparation_time =     0.0022
-  eval_runtime                = 0:02:57.29
-  eval_samples_per_second     =      20.48
-  eval_steps_per_second       =       1.28
+  eval_model_preparation_time =      0.006
+  eval_runtime                = 0:04:34.66
+  eval_samples_per_second     =      13.22
+  eval_steps_per_second       =      0.826
+***** glow-vit | testing on yin30lei/wildlife_very_dark  metrics *****
+  eval_loss                   =     4.5018
+  eval_model_preparation_time =      0.006
+  eval_runtime                = 0:00:53.63
+  eval_samples_per_second     =     13.087
+  eval_steps_per_second       =       0.82
+***** glow-vit | testing on yin30lei/wildlife_well_illuminated  metrics *****
+  eval_loss                   =     0.0225
+  eval_model_preparation_time =      0.006
+  eval_runtime                = 0:02:51.68
+  eval_samples_per_second     =     13.589
+  eval_steps_per_second       =       0.85
+***** glow-vit | testing on yin30lei/wildlife_mixed  metrics *****
+  eval_loss                   =     0.5657
+  eval_model_preparation_time =     0.0057
+  eval_runtime                = 0:05:08.96
+  eval_samples_per_second     =      12.81
+  eval_steps_per_second       =      0.803  
 ```
 
 > Glow-ViT-dark
 
 ```
+***** glow-vit-dark | testing on SeaSponge/wildme10_classify  metrics *****
+  eval_loss                   =     0.2078
+  eval_model_preparation_time =     0.0058
+  eval_runtime                = 0:04:38.73
+  eval_samples_per_second     =     13.027
+  eval_steps_per_second       =      0.814
 ***** glow-vit-dark | testing on yin30lei/wildlife_very_dark  metrics *****
   eval_loss                   =     0.5554
-  eval_model_preparation_time =     0.0022
-  eval_runtime                = 0:00:36.61
-  eval_samples_per_second     =     19.172
-  eval_steps_per_second       =      1.202
+  eval_model_preparation_time =     0.0058
+  eval_runtime                = 0:00:53.22
+  eval_samples_per_second     =     13.189
+  eval_steps_per_second       =      0.827
+***** glow-vit-dark | testing on yin30lei/wildlife_well_illuminated  metrics *****
+  eval_loss                   =     0.1712
+  eval_model_preparation_time =     0.0058
+  eval_runtime                = 0:02:56.09
+  eval_samples_per_second     =     13.249
+  eval_steps_per_second       =      0.829
+***** glow-vit-dark | testing on yin30lei/wildlife_mixed  metrics *****
+  eval_loss                   =     0.2502
+  eval_model_preparation_time =     0.0058
+  eval_runtime                = 0:05:14.45
+  eval_samples_per_second     =     12.587
+  eval_steps_per_second       =      0.789
 ```
 
 > Glow-ViT-illuminate
 
 ```
-***** glow-vit-illuminate | testing on yin30lei/wildlife_well_illuminated metrics *****
+***** glow-vit-illuminate | testing on SeaSponge/wildme10_classify  metrics *****
+  eval_loss                   =     0.1177
+  eval_model_preparation_time =     0.0035
+  eval_runtime                = 0:04:43.47
+  eval_samples_per_second     =     12.809
+  eval_steps_per_second       =      0.801
+***** glow-vit-illuminate | testing on yin30lei/wildlife_very_dark  metrics *****
+  eval_loss                   =     2.1939
+  eval_model_preparation_time =     0.0035
+  eval_runtime                = 0:00:54.60
+  eval_samples_per_second     =     12.857
+  eval_steps_per_second       =      0.806
+***** glow-vit-illuminate | testing on yin30lei/wildlife_well_illuminated  metrics *****
   eval_loss                   =     0.1064
-  eval_model_preparation_time =     0.0022
-  eval_runtime                = 0:02:03.81
-  eval_samples_per_second     =     18.842
-  eval_steps_per_second       =      1.179
+  eval_model_preparation_time =     0.0035
+  eval_runtime                = 0:02:56.43
+  eval_samples_per_second     =     13.223
+  eval_steps_per_second       =      0.827
+***** glow-vit-illuminate | testing on yin30lei/wildlife_mixed  metrics *****
+  eval_loss                   =     0.4042
+  eval_model_preparation_time =     0.0035
+  eval_runtime                = 0:05:31.54
+  eval_samples_per_second     =     11.938
+  eval_steps_per_second       =      0.748
 ```
 
 > Glow-ViT-mix
 
 ```
+***** glow-vit-mix | testing on SeaSponge/wildme10_classify  metrics *****
+  eval_loss                   =     0.0744
+  eval_model_preparation_time =     0.0061
+  eval_runtime                = 0:04:18.65
+  eval_samples_per_second     =     14.038
+  eval_steps_per_second       =      0.878
+***** glow-vit-mix | testing on yin30lei/wildlife_very_dark  metrics *****
+  eval_loss                   =     0.3715
+  eval_model_preparation_time =     0.0061
+  eval_runtime                = 0:00:52.80
+  eval_samples_per_second     =     13.294
+  eval_steps_per_second       =      0.833
+***** glow-vit-mix | testing on yin30lei/wildlife_well_illuminated  metrics *****
+  eval_loss                   =     0.0243
+  eval_model_preparation_time =     0.0061
+  eval_runtime                = 0:02:47.16
+  eval_samples_per_second     =     13.956
+  eval_steps_per_second       =      0.873
 ***** glow-vit-mix | testing on yin30lei/wildlife_mixed  metrics *****
   eval_loss                   =     0.1449
-  eval_model_preparation_time =     0.0023
-  eval_runtime                = 0:03:20.46
-  eval_samples_per_second     =     19.744
-  eval_steps_per_second       =      1.237
+  eval_model_preparation_time =     0.0061
+  eval_runtime                = 0:05:09.75
+  eval_samples_per_second     =     12.778
+  eval_steps_per_second       =      0.801
 ```
 
 ### The various low-exposure datasets
