@@ -296,3 +296,49 @@ Generating train split: 100%
   eval_samples_per_second     =     20.645
   eval_steps_per_second       =      1.307
 ```
+
+> Glow-ViT-illuminate
+
+```
+***** glow-vit-illuminate | testing on yin30lei/wildlife_underexposed_clahe  metrics *****
+  eval_loss                   =     0.2424
+  eval_model_preparation_time =     0.0025
+  eval_runtime                = 0:01:02.28
+  eval_samples_per_second     =     18.255
+  eval_steps_per_second       =      1.156
+***** glow-vit-illuminate | testing on yin30lei/wildlife_underexposed_he  metrics *****
+  eval_loss                   =      0.255
+  eval_model_preparation_time =     0.0025
+  eval_runtime                = 0:00:54.62
+  eval_samples_per_second     =     20.814
+  eval_steps_per_second       =      1.318
+***** glow-vit-illuminate | testing on yin30lei/wildlife_underexposed_afifi  metrics *****
+  eval_loss                   =     0.2446
+  eval_model_preparation_time =     0.0025
+  eval_runtime                = 0:00:54.77
+  eval_samples_per_second     =     20.759
+  eval_steps_per_second       =      1.315
+```
+
+> Glow-Vit-mix
+
+```
+***** glow-vit-mix | testing on yin30lei/wildlife_underexposed_clahe  metrics *****
+  eval_loss                   =     0.0577
+  eval_model_preparation_time =     0.0027
+  eval_runtime                = 0:00:58.96
+  eval_samples_per_second     =     19.283
+  eval_steps_per_second       =      1.221
+***** glow-vit-mix | testing on yin30lei/wildlife_underexposed_he  metrics *****
+  eval_loss                   =     0.0917
+  eval_model_preparation_time =     0.0027
+  eval_runtime                = 0:00:54.53
+  eval_samples_per_second     =     20.847
+  eval_steps_per_second       =       1.32
+***** glow-vit-mix | testing on yin30lei/wildlife_underexposed_afifi  metrics *****
+  eval_loss                   =      0.061
+  eval_model_preparation_time =     0.0027
+  eval_runtime                = 0:00:56.55
+  eval_samples_per_second     =     20.104
+  eval_steps_per_second       =      1.273
+```
