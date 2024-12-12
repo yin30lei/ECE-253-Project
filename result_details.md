@@ -242,6 +242,127 @@ This file contains more detailed analysis of models' performance on the various 
 
 ### Filtered dataset:
 
+#### very_dark
+
+> Glow-ViT
+
+```
+***** glow-vit | testing on yin30lei/wildlife_verydark_clahe  metrics *****
+  eval_loss                   =      0.075
+  eval_model_preparation_time =     0.0028
+  eval_runtime                = 0:01:10.11
+  eval_samples_per_second     =     18.797
+  eval_steps_per_second       =      1.184
+***** glow-vit | testing on yin30lei/wildlife_verydark_he  metrics *****
+  eval_loss                   =     0.1791
+  eval_model_preparation_time =     0.0028
+  eval_runtime                = 0:01:12.74
+  eval_samples_per_second     =     18.119
+  eval_steps_per_second       =      1.141
+***** glow-vit | testing on yin30lei/wildlife_verydark_afifi  metrics *****
+  eval_loss                   =     0.4517
+  eval_model_preparation_time =     0.0028
+  eval_runtime                = 0:01:08.64
+  eval_samples_per_second     =     19.199
+  eval_steps_per_second       =      1.209
+```
+
+> Glow-ViT-dark
+
+```
+***** glow-vit-dark | testing on yin30lei/wildlife_verydark_clahe  metrics *****
+  eval_loss                   =     0.2089
+  eval_model_preparation_time =     0.0033
+  eval_runtime                = 0:01:10.19
+  eval_samples_per_second     =     18.775
+  eval_steps_per_second       =      1.182
+***** glow-vit-dark | testing on yin30lei/wildlife_verydark_he  metrics *****
+  eval_loss                   =     0.2324
+  eval_model_preparation_time =     0.0033
+  eval_runtime                = 0:01:09.88
+  eval_samples_per_second     =      18.86
+  eval_steps_per_second       =      1.188
+***** glow-vit-dark | testing on yin30lei/wildlife_verydark_afifi  metrics *****
+  eval_loss                   =     0.3838
+  eval_model_preparation_time =     0.0033
+  eval_runtime                = 0:01:10.25
+  eval_samples_per_second     =     18.761
+  eval_steps_per_second       =      1.181
+```
+
+> Glow-ViT-illuminate
+
+```
+***** glow-vit-illuminate | testing on yin30lei/wildlife_verydark_clahe  metrics *****
+  eval_loss                   =     0.3039
+  eval_model_preparation_time =     0.0032
+  eval_runtime                = 0:01:09.24
+  eval_samples_per_second     =     19.033
+  eval_steps_per_second       =      1.199
+***** glow-vit-illuminate | testing on yin30lei/wildlife_verydark_he  metrics *****
+  eval_loss                   =      0.419
+  eval_model_preparation_time =     0.0032
+  eval_runtime                = 0:01:03.51
+  eval_samples_per_second     =     20.752
+  eval_steps_per_second       =      1.307
+***** glow-vit-illuminate | testing on yin30lei/wildlife_verydark_afifi  metrics *****
+  eval_loss                   =     0.6543
+  eval_model_preparation_time =     0.0032
+  eval_runtime                = 0:01:04.05
+  eval_samples_per_second     =     20.576
+  eval_steps_per_second       =      1.296
+```
+
+> Glow-ViT-mix
+
+```
+
+***** glow-vit-mix | testing on yin30lei/wildlife_verydark_clahe  metrics *****
+  eval_loss                   =     0.1768
+  eval_model_preparation_time =     0.0024
+  eval_runtime                = 0:01:13.95
+  eval_samples_per_second     =     17.821
+  eval_steps_per_second       =      1.122
+***** glow-vit-mix | testing on yin30lei/wildlife_verydark_he  metrics *****
+  eval_loss                   =     0.1925
+  eval_model_preparation_time =     0.0024
+  eval_runtime                = 0:01:09.50
+  eval_samples_per_second     =     18.962
+  eval_steps_per_second       =      1.194
+***** glow-vit-mix | testing on yin30lei/wildlife_verydark_afifi  metrics *****
+  eval_loss                   =     0.1952
+  eval_model_preparation_time =     0.0024
+  eval_runtime                = 0:01:10.62
+  eval_samples_per_second     =     18.662
+  eval_steps_per_second       =      1.175
+
+```
+
+#### grayscale
+
+> Glow-ViT
+
+
+> Glow-ViT-dark
+
+> Glow-ViT-illuminate
+
+> Glow-ViT-mix
+
+
+#### less-saturated
+
+> Glow-ViT
+
+
+> Glow-ViT-dark
+
+> Glow-ViT-illuminate
+
+> Glow-ViT-mix
+
+#### underexposed
+
 > Glow-ViT
 
 ```

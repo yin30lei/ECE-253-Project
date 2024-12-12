@@ -42,10 +42,27 @@ This section contains results of models' performance running on dataset that hav
 - CLAHE
 - AFIFI
 
-#### HE
+The tables are sorted by datasets:
 
+#### very-dark-test
 
-#### CLAHE
+#### grayscale
 
+#### less saturated
 
-#### AFIFI
+#### underexposed
+
+| Model             | Dataset                              | Eval Loss | Eval Samples Per Second |
+|--------------------|--------------------------------------|-----------|--------------------------|
+| Glow-ViT          | wildlife_underexposed_clahe          | 0.0688    | 18.855                   |
+| Glow-ViT          | wildlife_underexposed_he             | 0.1119    | 20.013                   |
+| Glow-ViT          | wildlife_underexposed_afifi          | 0.0692    | 19.543                   |
+| Glow-ViT-Dark     | wildlife_underexposed_clahe          | 0.2596    | 17.982                   |
+| Glow-ViT-Dark     | wildlife_underexposed_he             | 0.2636    | 19.576                   |
+| Glow-ViT-Dark     | wildlife_underexposed_afifi          | 0.2450    | 20.645                   |
+| Glow-ViT-Illuminate | wildlife_underexposed_clahe        | 0.2424    | 18.255                   |
+| Glow-ViT-Illuminate | wildlife_underexposed_he           | 0.2550    | 20.814                   |
+| Glow-ViT-Illuminate | wildlife_underexposed_afifi        | 0.2446    | 20.759                   |
+| Glow-ViT-Mix      | wildlife_underexposed_clahe          | 0.0577    | 19.283                   |
+| Glow-ViT-Mix      | wildlife_underexposed_he             | 0.0917    | 20.847                   |
+| Glow-ViT-Mix      | wildlife_underexposed_afifi          | 0.0610    | 20.104                   |
