@@ -338,28 +338,108 @@ This file contains more detailed analysis of models' performance on the various 
 
 ```
 
-#### grayscale
-
-> Glow-ViT
-
-
-> Glow-ViT-dark
-
-> Glow-ViT-illuminate
-
-> Glow-ViT-mix
-
 
 #### less-saturated
 
 > Glow-ViT
 
+```
+***** glow-vit | testing on yin30lei/wildlife_less_saturated_clahe  metrics *****
+  eval_loss                   =     0.4322
+  eval_model_preparation_time =      0.003
+  eval_runtime                = 0:00:59.21
+  eval_samples_per_second     =     19.202
+  eval_steps_per_second       =      1.216
+README.md: 100%
+ 459/459 [00:00<00:00, 24.5kB/s]
+Generating train split: 100%
+ 1137/1137 [00:00<00:00, 3084.09 examples/s]
+***** glow-vit | testing on yin30lei/wildlife_less_saturated_he  metrics *****
+  eval_loss                   =     0.1722
+  eval_model_preparation_time =      0.003
+  eval_runtime                = 0:00:54.37
+  eval_samples_per_second     =     20.912
+  eval_steps_per_second       =      1.324
+README.md: 100%
+ 461/461 [00:00<00:00, 22.2kB/s]
+Generating train split: 100%
+ 1137/1137 [00:00<00:00, 2149.82 examples/s]
+***** glow-vit | testing on yin30lei/wildlife_less_saturated_afifi  metrics *****
+  eval_loss                   =     0.1746
+  eval_model_preparation_time =      0.003
+  eval_runtime                = 0:00:52.28
+  eval_samples_per_second     =     21.745
+  eval_steps_per_second       =      1.377
+```
 
 > Glow-ViT-dark
 
+```
+***** glow-vit-dark | testing on yin30lei/wildlife_less_saturated_clahe  metrics *****
+  eval_loss                   =     0.5156
+  eval_model_preparation_time =     0.0022
+  eval_runtime                = 0:00:54.74
+  eval_samples_per_second     =      20.77
+  eval_steps_per_second       =      1.315
+***** glow-vit-dark | testing on yin30lei/wildlife_less_saturated_he  metrics *****
+  eval_loss                   =     0.2069
+  eval_model_preparation_time =     0.0022
+  eval_runtime                = 0:00:51.13
+  eval_samples_per_second     =     22.236
+  eval_steps_per_second       =      1.408
+***** glow-vit-dark | testing on yin30lei/wildlife_less_saturated_afifi  metrics *****
+  eval_loss                   =     0.3232
+  eval_model_preparation_time =     0.0022
+  eval_runtime                = 0:00:53.64
+  eval_samples_per_second     =     21.194
+  eval_steps_per_second       =      1.342
+```
+
 > Glow-ViT-illuminate
 
+```
+***** glow-vit-illuminate | testing on yin30lei/wildlife_less_saturated_clahe  metrics *****
+  eval_loss                   =     0.6073
+  eval_model_preparation_time =     0.0024
+  eval_runtime                = 0:00:55.73
+  eval_samples_per_second     =     20.399
+  eval_steps_per_second       =      1.292
+***** glow-vit-illuminate | testing on yin30lei/wildlife_less_saturated_he  metrics *****
+  eval_loss                   =     0.3827
+  eval_model_preparation_time =     0.0024
+  eval_runtime                = 0:00:54.40
+  eval_samples_per_second     =       20.9
+  eval_steps_per_second       =      1.324
+***** glow-vit-illuminate | testing on yin30lei/wildlife_less_saturated_afifi  metrics *****
+  eval_loss                   =     0.3601
+  eval_model_preparation_time =     0.0024
+  eval_runtime                = 0:00:51.80
+  eval_samples_per_second     =     21.946
+  eval_steps_per_second       =       1.39
+```
+
 > Glow-ViT-mix
+
+```
+***** glow-vit-mix | testing on yin30lei/wildlife_less_saturated_clahe  metrics *****
+  eval_loss                   =      0.207
+  eval_model_preparation_time =     0.0029
+  eval_runtime                = 0:00:59.91
+  eval_samples_per_second     =     18.978
+  eval_steps_per_second       =      1.202
+***** glow-vit-mix | testing on yin30lei/wildlife_less_saturated_he  metrics *****
+  eval_loss                   =     0.1004
+  eval_model_preparation_time =     0.0029
+  eval_runtime                = 0:00:52.45
+  eval_samples_per_second     =     21.674
+  eval_steps_per_second       =      1.373
+***** glow-vit-mix | testing on yin30lei/wildlife_less_saturated_afifi  metrics *****
+  eval_loss                   =     0.0977
+  eval_model_preparation_time =     0.0029
+  eval_runtime                = 0:00:52.51
+  eval_samples_per_second     =     21.653
+  eval_steps_per_second       =      1.371
+```
 
 #### underexposed
 
