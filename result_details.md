@@ -543,3 +543,114 @@ Generating train split: 100%
   eval_samples_per_second     =     20.104
   eval_steps_per_second       =      1.273
 ```
+
+
+### Extra details:
+
+> Glow-ViT
+
+```
+```
+
+
+> Glow-ViT-Dark
+
+```
+```
+
+> Glow-ViT-Illuminate
+
+```
+```
+
+> Glow-ViT-Mix
+
+```
+***** glow-vit-mix | testing on yin30lei/wildlife_very_dark_test  metrics *****
+  eval_accuracy               =     0.9643
+  eval_f1_weighted            =     0.9645
+  eval_precision_weighted     =     0.9653
+  eval_recall_weighted        =     0.9643
+  
+  
+***** glow-vit-mix | testing on yin30lei/wildlife_grayscale  metrics *****
+  eval_accuracy               =      0.983
+  eval_f1_weighted            =     0.9829
+  eval_precision_weighted     =     0.9832
+  eval_recall_weighted        =      0.983
+  
+  
+***** glow-vit-mix | testing on yin30lei/wildlife_less_saturated  metrics *****
+  eval_accuracy               =     0.9833
+  eval_f1_weighted            =     0.9836
+  eval_precision_weighted     =     0.9841
+  eval_recall_weighted        =     0.9833
+  
+
+***** glow-vit-mix | testing on yin30lei/wildlife_underexposed  metrics *****
+  eval_accuracy               =     0.9886
+  eval_f1_weighted            =      0.989
+  eval_precision_weighted     =     0.9895
+  eval_recall_weighted        =     0.9886
+
+***** glow-vit-mix | testing on yin30lei/wildlife_verydark_clahe  metrics *****
+  eval_accuracy               =     0.9545
+  eval_f1_weighted            =     0.9644
+  eval_precision_weighted     =     0.9783
+  eval_recall_weighted        =     0.9545
+  
+***** glow-vit-mix | testing on yin30lei/wildlife_verydark_he  metrics *****
+  eval_accuracy               =      0.953
+  eval_f1_weighted            =     0.9584
+  eval_precision_weighted     =     0.9667
+  eval_recall_weighted        =      0.953
+  
+***** glow-vit-mix | testing on yin30lei/wildlife_verydark_afifi  metrics *****
+  eval_accuracy               =     0.9514
+  eval_f1_weighted            =     0.9517
+  eval_precision_weighted     =     0.9531
+  eval_recall_weighted        =     0.9514
+  
+***** glow-vit-mix | testing on yin30lei/wildlife_less_saturated_clahe  metrics *****
+  eval_accuracy               =     0.9499
+  eval_f1_weighted            =     0.9509
+  eval_model_preparation_time =     0.0029
+  eval_precision_weighted     =     0.9558
+  eval_recall_weighted        =     0.9499
+  
+***** glow-vit-mix | testing on yin30lei/wildlife_less_saturated_he  metrics *****
+  eval_accuracy               =     0.9771
+  eval_f1_weighted            =      0.977
+  eval_model_preparation_time =     0.0029
+  eval_precision_weighted     =     0.9771
+  eval_recall_weighted        =     0.9771
+  
+***** glow-vit-mix | testing on yin30lei/wildlife_less_saturated_afifi  metrics *****
+  eval_accuracy               =     0.9771
+  eval_f1_weighted            =     0.9778
+  eval_model_preparation_time =     0.0029
+  eval_precision_weighted     =     0.9788
+  eval_recall_weighted        =     0.9771
+  
+  
+***** glow-vit-mix | testing on yin30lei/wildlife_underexposed_clahe  metrics *****
+  eval_accuracy               =      0.985
+  eval_f1_weighted            =     0.9851
+  eval_model_preparation_time =     0.0029
+  eval_precision_weighted     =     0.9851
+  eval_recall_weighted        =      0.985
+  
+***** glow-vit-mix | testing on yin30lei/wildlife_underexposed_he  metrics *****
+  eval_accuracy               =      0.978
+  eval_f1_weighted            =      0.978
+  eval_model_preparation_time =     0.0029
+  eval_precision_weighted     =     0.9781
+  eval_recall_weighted        =      0.978
+  
+***** glow-vit-mix | testing on yin30lei/wildlife_underexposed_afifi  metrics *****
+  eval_accuracy               =     0.9877
+  eval_f1_weighted            =     0.9877
+  eval_model_preparation_time =     0.0029
+  eval_precision_weighted     =     0.9877
+  eval_recall_weighted        =     0.9877  
+```
