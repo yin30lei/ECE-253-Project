@@ -42,6 +42,13 @@ This section contains results of models' performance running on dataset that hav
 - CLAHE
 - AFIFI
 
+@inproceedings{afifi2021learning,
+  title={Learning Multi-Scale Photo Exposure Correction},
+  author={Afifi, Mahmoud and Derpanis, Konstantinos G, and Ommer, Bj{\"o}rn and Brown, Michael S},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year={2021}
+}
+
 The tables are sorted by datasets:
 
 #### very-dark-test
